@@ -23,3 +23,4 @@ jobs:
         gem install awesome_bot
         ruby .github/osia_get_links.rb
         awesome_bot check-unique.txt --allow-ssl -a 302,429,502 -w xbmc/xbmc,swiftui/fruta
+runs-on: ubuntu-latest.updated
